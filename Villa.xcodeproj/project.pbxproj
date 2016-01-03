@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCA4A06B1C37996F00ED6A63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4A06A1C37996F00ED6A63 /* AppDelegate.swift */; };
+		DCA4A06D1C37996F00ED6A63 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4A06C1C37996F00ED6A63 /* HomeViewController.swift */; };
+		DCA4A0701C37996F00ED6A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA4A06E1C37996F00ED6A63 /* Main.storyboard */; };
+		DCA4A0721C37996F00ED6A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA4A0711C37996F00ED6A63 /* Assets.xcassets */; };
+		DCA4A0751C37996F00ED6A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA4A0731C37996F00ED6A63 /* LaunchScreen.storyboard */; };
+		DCA4A0801C37996F00ED6A63 /* VillaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4A07F1C37996F00ED6A63 /* VillaTests.swift */; };
+		DCA4A08B1C37996F00ED6A63 /* VillaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4A08A1C37996F00ED6A63 /* VillaUITests.swift */; };
+		DCA4A0991C37998500ED6A63 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4A0981C37998500ED6A63 /* libc++.1.dylib */; };
+		DCA4A09B1C37999400ED6A63 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4A09A1C37999400ED6A63 /* libicucore.A.dylib */; };
+		DCA4A09D1C37999A00ED6A63 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4A09C1C37999A00ED6A63 /* CFNetwork.framework */; };
+		DCA4A09F1C37999F00ED6A63 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4A09E1C37999F00ED6A63 /* Security.framework */; };
+		DCA4A0A11C3799A600ED6A63 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4A0A01C3799A600ED6A63 /* SystemConfiguration.framework */; };
+		DCA4A0A31C3799E200ED6A63 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA4A0A21C3799E200ED6A63 /* Firebase.framework */; };
+		DCA4A0A61C37F1C100ED6A63 /* PropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4A0A41C37F1C100ED6A63 /* PropertyTableViewCell.swift */; };
+		DCA4A0A71C37F1C100ED6A63 /* PropertyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA4A0A51C37F1C100ED6A63 /* PropertyTableViewCell.xib */; };
+		DCA4A0AA1C3821E400ED6A63 /* RoommatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4A0A91C3821E400ED6A63 /* RoommatesViewController.swift */; };
+		DCA4A0AC1C3822DE00ED6A63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA4A0AB1C3822DE00ED6A63 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA4A07C1C37996F00ED6A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA4A05F1C37996F00ED6A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA4A0661C37996F00ED6A63;
+			remoteInfo = Villa;
+		};
+		DCA4A0871C37996F00ED6A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA4A05F1C37996F00ED6A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA4A0661C37996F00ED6A63;
+			remoteInfo = Villa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCA4A0671C37996F00ED6A63 /* Villa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Villa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA4A06A1C37996F00ED6A63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA4A06C1C37996F00ED6A63 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DCA4A06F1C37996F00ED6A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA4A0711C37996F00ED6A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA4A0741C37996F00ED6A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA4A0761C37996F00ED6A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA4A07B1C37996F00ED6A63 /* VillaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VillaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA4A07F1C37996F00ED6A63 /* VillaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillaTests.swift; sourceTree = "<group>"; };
+		DCA4A0811C37996F00ED6A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA4A0861C37996F00ED6A63 /* VillaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VillaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA4A08A1C37996F00ED6A63 /* VillaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillaUITests.swift; sourceTree = "<group>"; };
+		DCA4A08C1C37996F00ED6A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA4A0981C37998500ED6A63 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		DCA4A09A1C37999400ED6A63 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = ../../../../../usr/lib/libicucore.A.dylib; sourceTree = "<group>"; };
+		DCA4A09C1C37999A00ED6A63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DCA4A09E1C37999F00ED6A63 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DCA4A0A01C3799A600ED6A63 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DCA4A0A21C3799E200ED6A63 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		DCA4A0A41C37F1C100ED6A63 /* PropertyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyTableViewCell.swift; sourceTree = "<group>"; };
+		DCA4A0A51C37F1C100ED6A63 /* PropertyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PropertyTableViewCell.xib; sourceTree = "<group>"; };
+		DCA4A0A81C37F58000ED6A63 /* Villa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Villa-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCA4A0A91C3821E400ED6A63 /* RoommatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoommatesViewController.swift; sourceTree = "<group>"; };
+		DCA4A0AB1C3822DE00ED6A63 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA4A0641C37996F00ED6A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4A0A11C3799A600ED6A63 /* SystemConfiguration.framework in Frameworks */,
+				DCA4A0A31C3799E200ED6A63 /* Firebase.framework in Frameworks */,
+				DCA4A09F1C37999F00ED6A63 /* Security.framework in Frameworks */,
+				DCA4A09D1C37999A00ED6A63 /* CFNetwork.framework in Frameworks */,
+				DCA4A09B1C37999400ED6A63 /* libicucore.A.dylib in Frameworks */,
+				DCA4A0991C37998500ED6A63 /* libc++.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4A0781C37996F00ED6A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4A0831C37996F00ED6A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA4A05E1C37996F00ED6A63 = {
+			isa = PBXGroup;
+			children = (
+				DCA4A0A01C3799A600ED6A63 /* SystemConfiguration.framework */,
+				DCA4A09E1C37999F00ED6A63 /* Security.framework */,
+				DCA4A09C1C37999A00ED6A63 /* CFNetwork.framework */,
+				DCA4A09A1C37999400ED6A63 /* libicucore.A.dylib */,
+				DCA4A0981C37998500ED6A63 /* libc++.1.dylib */,
+				DCA4A0691C37996F00ED6A63 /* Villa */,
+				DCA4A07E1C37996F00ED6A63 /* VillaTests */,
+				DCA4A0891C37996F00ED6A63 /* VillaUITests */,
+				DCA4A0681C37996F00ED6A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA4A0681C37996F00ED6A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4A0671C37996F00ED6A63 /* Villa.app */,
+				DCA4A07B1C37996F00ED6A63 /* VillaTests.xctest */,
+				DCA4A0861C37996F00ED6A63 /* VillaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA4A0691C37996F00ED6A63 /* Villa */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4A06A1C37996F00ED6A63 /* AppDelegate.swift */,
+				DCA4A06C1C37996F00ED6A63 /* HomeViewController.swift */,
+				DCA4A0AB1C3822DE00ED6A63 /* ViewController.swift */,
+				DCA4A0A91C3821E400ED6A63 /* RoommatesViewController.swift */,
+				DCA4A06E1C37996F00ED6A63 /* Main.storyboard */,
+				DCA4A0A41C37F1C100ED6A63 /* PropertyTableViewCell.swift */,
+				DCA4A0A51C37F1C100ED6A63 /* PropertyTableViewCell.xib */,
+				DCA4A0A21C3799E200ED6A63 /* Firebase.framework */,
+				DCA4A0711C37996F00ED6A63 /* Assets.xcassets */,
+				DCA4A0731C37996F00ED6A63 /* LaunchScreen.storyboard */,
+				DCA4A0761C37996F00ED6A63 /* Info.plist */,
+				DCA4A0A81C37F58000ED6A63 /* Villa-Bridging-Header.h */,
+			);
+			path = Villa;
+			sourceTree = "<group>";
+		};
+		DCA4A07E1C37996F00ED6A63 /* VillaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4A07F1C37996F00ED6A63 /* VillaTests.swift */,
+				DCA4A0811C37996F00ED6A63 /* Info.plist */,
+			);
+			path = VillaTests;
+			sourceTree = "<group>";
+		};
+		DCA4A0891C37996F00ED6A63 /* VillaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA4A08A1C37996F00ED6A63 /* VillaUITests.swift */,
+				DCA4A08C1C37996F00ED6A63 /* Info.plist */,
+			);
+			path = VillaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA4A0661C37996F00ED6A63 /* Villa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA4A08F1C37996F00ED6A63 /* Build configuration list for PBXNativeTarget "Villa" */;
+			buildPhases = (
+				DCA4A0631C37996F00ED6A63 /* Sources */,
+				DCA4A0641C37996F00ED6A63 /* Frameworks */,
+				DCA4A0651C37996F00ED6A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Villa;
+			productName = Villa;
+			productReference = DCA4A0671C37996F00ED6A63 /* Villa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA4A07A1C37996F00ED6A63 /* VillaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA4A0921C37996F00ED6A63 /* Build configuration list for PBXNativeTarget "VillaTests" */;
+			buildPhases = (
+				DCA4A0771C37996F00ED6A63 /* Sources */,
+				DCA4A0781C37996F00ED6A63 /* Frameworks */,
+				DCA4A0791C37996F00ED6A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA4A07D1C37996F00ED6A63 /* PBXTargetDependency */,
+			);
+			name = VillaTests;
+			productName = VillaTests;
+			productReference = DCA4A07B1C37996F00ED6A63 /* VillaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCA4A0851C37996F00ED6A63 /* VillaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA4A0951C37996F00ED6A63 /* Build configuration list for PBXNativeTarget "VillaUITests" */;
+			buildPhases = (
+				DCA4A0821C37996F00ED6A63 /* Sources */,
+				DCA4A0831C37996F00ED6A63 /* Frameworks */,
+				DCA4A0841C37996F00ED6A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA4A0881C37996F00ED6A63 /* PBXTargetDependency */,
+			);
+			name = VillaUITests;
+			productName = VillaUITests;
+			productReference = DCA4A0861C37996F00ED6A63 /* VillaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA4A05F1C37996F00ED6A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Luohan;
+				TargetAttributes = {
+					DCA4A0661C37996F00ED6A63 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QCN9TYJTR8;
+					};
+					DCA4A07A1C37996F00ED6A63 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QCN9TYJTR8;
+						TestTargetID = DCA4A0661C37996F00ED6A63;
+					};
+					DCA4A0851C37996F00ED6A63 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QCN9TYJTR8;
+						TestTargetID = DCA4A0661C37996F00ED6A63;
+					};
+				};
+			};
+			buildConfigurationList = DCA4A0621C37996F00ED6A63 /* Build configuration list for PBXProject "Villa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA4A05E1C37996F00ED6A63;
+			productRefGroup = DCA4A0681C37996F00ED6A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA4A0661C37996F00ED6A63 /* Villa */,
+				DCA4A07A1C37996F00ED6A63 /* VillaTests */,
+				DCA4A0851C37996F00ED6A63 /* VillaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA4A0651C37996F00ED6A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4A0751C37996F00ED6A63 /* LaunchScreen.storyboard in Resources */,
+				DCA4A0721C37996F00ED6A63 /* Assets.xcassets in Resources */,
+				DCA4A0A71C37F1C100ED6A63 /* PropertyTableViewCell.xib in Resources */,
+				DCA4A0701C37996F00ED6A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4A0791C37996F00ED6A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4A0841C37996F00ED6A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA4A0631C37996F00ED6A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4A0AC1C3822DE00ED6A63 /* ViewController.swift in Sources */,
+				DCA4A06D1C37996F00ED6A63 /* HomeViewController.swift in Sources */,
+				DCA4A06B1C37996F00ED6A63 /* AppDelegate.swift in Sources */,
+				DCA4A0AA1C3821E400ED6A63 /* RoommatesViewController.swift in Sources */,
+				DCA4A0A61C37F1C100ED6A63 /* PropertyTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4A0771C37996F00ED6A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4A0801C37996F00ED6A63 /* VillaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA4A0821C37996F00ED6A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA4A08B1C37996F00ED6A63 /* VillaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA4A07D1C37996F00ED6A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA4A0661C37996F00ED6A63 /* Villa */;
+			targetProxy = DCA4A07C1C37996F00ED6A63 /* PBXContainerItemProxy */;
+		};
+		DCA4A0881C37996F00ED6A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA4A0661C37996F00ED6A63 /* Villa */;
+			targetProxy = DCA4A0871C37996F00ED6A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCA4A06E1C37996F00ED6A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA4A06F1C37996F00ED6A63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA4A0731C37996F00ED6A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA4A0741C37996F00ED6A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA4A08D1C37996F00ED6A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Villa/Villa-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA4A08E1C37996F00ED6A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Villa/Villa-Bridging-Header.h";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA4A0901C37996F00ED6A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Villa",
+				);
+				INFOPLIST_FILE = Villa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luohan.Villa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCA4A0911C37996F00ED6A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Villa",
+				);
+				INFOPLIST_FILE = Villa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luohan.Villa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCA4A0931C37996F00ED6A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VillaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luohan.VillaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Villa.app/Villa";
+			};
+			name = Debug;
+		};
+		DCA4A0941C37996F00ED6A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VillaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luohan.VillaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Villa.app/Villa";
+			};
+			name = Release;
+		};
+		DCA4A0961C37996F00ED6A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VillaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luohan.VillaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Villa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DCA4A0971C37996F00ED6A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VillaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Luohan.VillaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Villa;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA4A0621C37996F00ED6A63 /* Build configuration list for PBXProject "Villa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4A08D1C37996F00ED6A63 /* Debug */,
+				DCA4A08E1C37996F00ED6A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA4A08F1C37996F00ED6A63 /* Build configuration list for PBXNativeTarget "Villa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4A0901C37996F00ED6A63 /* Debug */,
+				DCA4A0911C37996F00ED6A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA4A0921C37996F00ED6A63 /* Build configuration list for PBXNativeTarget "VillaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4A0931C37996F00ED6A63 /* Debug */,
+				DCA4A0941C37996F00ED6A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA4A0951C37996F00ED6A63 /* Build configuration list for PBXNativeTarget "VillaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA4A0961C37996F00ED6A63 /* Debug */,
+				DCA4A0971C37996F00ED6A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA4A05F1C37996F00ED6A63 /* Project object */;
+}

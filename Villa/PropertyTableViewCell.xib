@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PropertyCell" rowHeight="136" id="KGk-i7-Jjw" customClass="PropertyCell" customModule="Villa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="443" height="136"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="443" height="135.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QdB-SV-Q5n">
+                        <rect key="frame" x="0.0" y="0.0" width="443" height="136"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1zB-E5-tme">
+                        <rect key="frame" x="290" y="55" width="153" height="81"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsX-EI-mqI">
+                                <rect key="frame" x="50" y="8" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFZ-xa-F2T">
+                                <rect key="frame" x="50" y="30" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5B-Ai-LpA">
+                                <rect key="frame" x="50" y="52" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.89434267241379306" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1zB-E5-tme" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="290" id="4VN-Rn-QBW"/>
+                    <constraint firstItem="QdB-SV-Q5n" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4pn-Ws-CaH"/>
+                    <constraint firstItem="1zB-E5-tme" firstAttribute="trailing" secondItem="QdB-SV-Q5n" secondAttribute="trailing" id="5cg-C8-1kY"/>
+                    <constraint firstItem="QdB-SV-Q5n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8zT-Mm-mgg"/>
+                    <constraint firstItem="1zB-E5-tme" firstAttribute="bottom" secondItem="QdB-SV-Q5n" secondAttribute="bottom" id="BqZ-mP-F6R"/>
+                    <constraint firstItem="QdB-SV-Q5n" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="EBG-bZ-rp4"/>
+                    <constraint firstAttribute="trailing" secondItem="QdB-SV-Q5n" secondAttribute="trailing" id="Hqu-84-RPU"/>
+                    <constraint firstItem="QdB-SV-Q5n" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" id="J13-Fi-c46"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="QdB-SV-Q5n" secondAttribute="bottom" constant="-8.5" id="Xwl-P7-UjD"/>
+                    <constraint firstItem="1zB-E5-tme" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="47" id="ntd-NC-GYu"/>
+                    <constraint firstItem="QdB-SV-Q5n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uQs-aH-yda"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bedrooms" destination="S5B-Ai-LpA" id="QYi-Nb-PKU"/>
+                <outlet property="name" destination="OFZ-xa-F2T" id="Rfg-9d-dU2"/>
+                <outlet property="price" destination="UsX-EI-mqI" id="Mu2-Lo-9qA"/>
+                <outlet property="statusView" destination="1zB-E5-tme" id="vz6-GI-r09"/>
+            </connections>
+            <point key="canvasLocation" x="399.5" y="451"/>
+        </tableViewCell>
+    </objects>
+</document>
